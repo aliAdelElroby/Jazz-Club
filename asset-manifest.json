@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Jazz-Club/static/css/main.a3631d68.chunk.css",
+    "main.js": "/Jazz-Club/static/js/main.ca7f41a0.chunk.js",
+    "main.js.map": "/Jazz-Club/static/js/main.ca7f41a0.chunk.js.map",
+    "runtime-main.js": "/Jazz-Club/static/js/runtime-main.b5492808.js",
+    "runtime-main.js.map": "/Jazz-Club/static/js/runtime-main.b5492808.js.map",
+    "static/js/2.b028e517.chunk.js": "/Jazz-Club/static/js/2.b028e517.chunk.js",
+    "static/js/2.b028e517.chunk.js.map": "/Jazz-Club/static/js/2.b028e517.chunk.js.map",
+    "index.html": "/Jazz-Club/index.html",
+    "static/css/main.a3631d68.chunk.css.map": "/Jazz-Club/static/css/main.a3631d68.chunk.css.map",
+    "static/js/2.b028e517.chunk.js.LICENSE.txt": "/Jazz-Club/static/js/2.b028e517.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/Jazz-Club/static/media/Kristi-Regular.36bf0572.ttf",
+    "static/media/Logo.7261e158.png": "/Jazz-Club/static/media/Logo.7261e158.png",
+    "static/media/Layout.scss": "/Jazz-Club/static/media/bg.8f36e155.png",
+    "static/media/facebook_icn.35f75b9f.svg": "/Jazz-Club/static/media/facebook_icn.35f75b9f.svg",
+    "static/media/instagram_icn.b459b0ba.svg": "/Jazz-Club/static/media/instagram_icn.b459b0ba.svg",
+    "static/media/linkedin_icn.f5278e35.svg": "/Jazz-Club/static/media/linkedin_icn.f5278e35.svg",
+    "static/media/twitter_icn.01d96b1d.svg": "/Jazz-Club/static/media/twitter_icn.01d96b1d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b5492808.js",
+    "static/js/2.b028e517.chunk.js",
+    "static/css/main.a3631d68.chunk.css",
+    "static/js/main.ca7f41a0.chunk.js"
+  ]
+}
