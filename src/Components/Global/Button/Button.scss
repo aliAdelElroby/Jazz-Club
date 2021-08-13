@@ -1,0 +1,19 @@
+// Import Variables File
+@import "../../../Sass/Vars";
+
+// Start Button Styling
+.main-button {
+    width: fit-content;
+    font-size: 20pt;
+    font-weight: 400;
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 1px solid $main-color;
+    color: $main-color;
+    border-radius: 5px;
+    transition: 600ms;
+    &:hover {
+        background-color: $main-color;
+        color: white;
+    }
+}

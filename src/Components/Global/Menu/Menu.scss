@@ -1,0 +1,39 @@
+// Start Styling Menu
+.menu-mobile {
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    transform: translate(100%, 0);
+    transition: transform 600ms;
+    will-change: transform;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #804e095d;
+    backdrop-filter: blur(3px);
+    // Links
+    .links {
+        text-align: center;
+        li {
+            display: block;
+            margin-bottom: 50px;
+            a {
+                font-size: 16pt;
+                color: white;
+                font-weight: 600;
+                text-decoration: none;
+                transition: color 400ms;
+                text-transform: uppercase;
+                &:hover {
+                    color: rgba(255, 255, 255, 0.438);
+                }
+            }
+        }
+    }
+}
+.menu-open {
+    transform: translate(0, 0);
+}

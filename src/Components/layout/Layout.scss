@@ -1,0 +1,158 @@
+// Import Variables File
+@import "../../Sass/Vars";
+
+// Start Layout Styling
+#layout {
+    min-height: 100vh;
+    max-height: max-content;
+    background-color: #1c1c1c;
+    background-image: url("./assets/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    .main {
+        flex-grow: 1;
+    }
+    // Content
+    .content {
+        width: fit-content;
+        margin: auto;
+        margin-top: 150px;
+        & > span {
+            color: $main-color;
+            font-size: 30pt;
+            font-weight: 100;
+            margin: 0 0 -20px 100px;
+            display: block;
+        }
+        h2 {
+            font-size: 150pt;
+            font-weight: 100;
+            color: white;
+            line-height: 105px;
+            span {
+                display: block;
+                font-size: 90pt;
+                font-family: "Kristi";
+                color: $main-color;
+            }
+        }
+        // Edit Button Component
+        .main-button {
+            margin-top: 60px;
+        }
+
+        // Info
+        .info {
+            margin-top: 50px;
+            .job {
+                font-size: 20pt;
+                color: white;
+                font-weight: 100;
+            }
+            .name {
+                font-size: 50pt;
+                line-height: 60px;
+                color: $main-color;
+                font-family: "Cartier";
+                transform-origin: left center;
+                transform: rotate(-20deg) translate(0, 40%);
+                span {
+                    font-family: "Cartier";
+                    margin-left: 20%;
+                }
+            }
+        }
+    }
+    // Footer
+    .footer {
+        margin-top: 50px;
+        padding-bottom: 30px;
+        display: flex;
+        align-items: center;
+        .copyright {
+            flex-grow: 1;
+            font-size: 13pt;
+            color: rgb(124, 124, 124);
+            span {
+                color: $main-color;
+                font-family: "Cartier";
+                font-size: 24pt;
+            }
+        }
+        // Social Media
+        .social-media {
+            ul {
+                li {
+                    display: inline-block;
+                    margin-right: 30px;
+                    &:last-child {
+                        margin-right: 0px;
+                    }
+                    a {
+                        img {
+                            width: 40px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//==================================Start Responsive
+
+// For Tablets
+@media (max-width: 991.98px) {
+    #layout {
+        // Content
+        .content {
+            width: 100%;
+        }
+        // Footer
+        .footer {
+            flex-direction: column;
+            text-align: center;
+            .social-media {
+                width: fit-content;
+                margin: 20px auto 0 auto;
+            }
+        }
+    }
+}
+
+// For Mobiles
+@media (max-width: 767.98px) {
+    #layout {
+        background-position: 55%;
+        // Content
+        .content {
+            & > span {
+                color: $main-color;
+                font-size: 20pt;
+                margin: 0 0 -15px 100px;
+            }
+            h2 {
+                font-size: 100pt;
+                line-height: 70px;
+                span {
+                    font-size: 60pt;
+                }
+            }
+            // Edit Button Component
+            .main-button {
+                display: block;
+                margin: 60px auto 0 auto;
+            }
+            .info {
+                padding-bottom: 50px;
+                .job {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
